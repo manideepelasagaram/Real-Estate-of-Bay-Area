@@ -16,15 +16,20 @@ Extracting Property Information: Property attributes such as street address, cit
 # Data Analysis:
 After scraping the data, the code performs various data analysis tasks. Here's a summary:
 
-## Cleaning and Structuring Data: The scraped data is cleaned and structured into a pandas DataFrame. Null values and outliers are handled appropriately.
+## Cleaning and Structuring Data: 
+The scraped data is cleaned and structured into a pandas DataFrame. Null values and outliers are handled appropriately.
 
-## Exploratory Data Analysis (EDA): Descriptive statistics, box plots, histograms, and other visualizations are generated to understand the distribution of variables such as price, beds, baths, etc.
+## Exploratory Data Analysis (EDA): 
+Descriptive statistics, box plots, histograms, and other visualizations are generated to understand the distribution of variables such as price, beds, baths, etc.
 
-## Categorization and Grouping: Property types and other categorical variables are categorized, and cross-tabulations are used to analyze relationships between different variables.
+## Categorization and Grouping: 
+Property types and other categorical variables are categorized, and cross-tabulations are used to analyze relationships between different variables.
 
-## Prediction Analysis: A linear regression model is trained to predict property prices based on attributes such as walk score, bike score, beds, baths, and square footage.
+## Prediction Analysis: 
+A linear regression model is trained to predict property prices based on attributes such as walk score, bike score, beds, baths, and square footage.
 
-## Visualization: Various plots and charts are generated to visualize relationships between different variables, such as price vs. walk score, price vs. property type, etc.
+## Visualization: 
+Various plots and charts are generated to visualize relationships between different variables, such as price vs. walk score, price vs. property type, etc.
 
 # Description:
 
@@ -32,4 +37,5 @@ The provided Python code automates the process of collecting real estate data fr
 
 The analysis aims to provide insights into the real estate market in different counties, including factors influencing property prices, property types prevalent in different areas, and the impact of factors such as walk score and bike score on property prices.
 
+## Conclusion:
 Overall, the code provides a robust framework for scraping real estate data and conducting in-depth analysis, which can be valuable for real estate professionals, investors, and anyone interested in understanding the housing market trends in California.
